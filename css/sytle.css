@@ -1,0 +1,183 @@
+
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+font-family: 'Epilogue', sans-serif;
+
+
+
+
+}
+h1{ font-size: 2.5rem;}
+
+.container{
+     display: flex;
+     align-items: center;
+     margin: auto;
+     max-width: 1100px;
+     margin: 15px;
+     padding:0 15px ;
+    
+     
+}
+
+
+.navbar{ 
+    margin-bottom: 60px;
+    
+} 
+
+
+ .navbar ul li { 
+    list-style:none ;
+}
+.navbar a{ 
+    text-decoration: none;
+    margin: 0 20px;
+    color:hsl(0, 0%, 41%)
+}
+.head{ margin: 0 50px;}
+
+.navbar-1{ margin-right: 500px;} 
+ .navbar-1 ul{ 
+    display: flex;
+    align-items: center;
+    position: relative
+
+
+}
+
+.navbar-2 ul{ 
+    display: flex;
+    align-items: center;
+}
+.navbar-2{ 
+    margin: 0 15px
+}
+.flex{
+    display: flex;
+    margin:0 200px;
+
+}
+img{ 
+    width: 340px;
+    margin-left: 50px;
+    
+   
+}
+
+.remote{ 
+
+    margin-top: 50px;
+    padding: 20px 30px;
+    margin-right: 100px;
+    width: 600px;
+
+}
+span{ display: block;}
+.remote h1{ 
+    font-size: 50px;
+    
+}
+.remote p{ 
+    margin: 30px 0;
+    text-align: justify;
+    color: hsl(0, 0%, 41%);
+}
+.btn{
+    text-decoration: none;
+    border: black 1px solid;
+    padding: 8px 18px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+
+.btn-light{
+
+    border: black 1px solid;
+    padding: 6px 15px;
+    border-radius: 10px;
+    color:hsl(0, 0%, 41%) ;
+   
+ } 
+ 
+
+.sub-menu{ 
+    display: none;
+}
+.sub-menu a{ color:black;}
+
+.navbar-1 ul li:hover .sub-menu{
+    display:block;
+    position: absolute;
+    background: white;
+    margin-top: 15px;
+}
+
+.navbar-1 ul li:hover .sub-menu ul{
+    display: block;
+    margin: 5px;
+    margin-left: -15px;
+    margin-right: -50px;
+    
+}
+
+.navbar-1 ul li:hover .sub-menu ul li{
+    width: 150px;
+    padding: 5px;
+    background: transparent;
+    text-align: left;
+    font-size: 15px;
+}
+.navbar-1 ul li:hover .sub-menu ul li a:hover{
+    color: aqua;
+}
+
+.sub-menu-1{ 
+    display: none;
+}
+.sub-menu-1 a{ color: black;
+}
+
+.navbar-1 ul li:hover .sub-menu-1{
+    display:block;
+    position: absolute;
+    background:white;
+
+    margin-top: 15px;
+}
+
+.navbar-1 ul li:hover .sub-menu-1 ul{
+    display: block;
+    
+    margin-left: -15px;
+    margin-right: -10px;
+    
+}
+
+.navbar-1 ul li:hover .sub-menu-1 ul li{
+    width: 100px;
+    padding: 5px;
+    background: transparent;
+    text-align: center;
+    font-size: 10px;
+}
+.navbar-1 ul li:hover .sub-menu-1 ul li a:hover{
+    color: aqua;
+}
+
+.sub-menu-1{
+     margin-left: 20px;
+    
+
+}
+svg{ 
+    margin-right: 5px;
+    
+}
